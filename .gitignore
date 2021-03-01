@@ -28,3 +28,6 @@ hs_err_pid*
 # Ignore Gradle build output directory
 build
 .DS_Store
+
+# Ignore IntelliJ IDEA work files
+.idea/
