@@ -1,5 +1,6 @@
 package GildedRose;
 
+
 public class Item {
 
     public String name;
