@@ -17,10 +17,6 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item{" +
-                "name='" + name + '\'' +
-                ", sellIn=" + sellIn +
-                ", quality=" + quality +
-                '}';
+        return "Item [name=" + name + ", quality=" + quality + ", sellIn=" + sellIn + "]";
     }
 }

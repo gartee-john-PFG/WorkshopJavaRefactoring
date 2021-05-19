@@ -9,7 +9,7 @@ class GildedRoseTest {
     @Test
     void approveGildedRose() {
         String[] names = {"foo", "Aged Brie", "Backstage passes to a TAFKAL80ETC concert", "Sulfuras, Hand of Ragnaros"};
-        Integer[] sellins = { -1, 0, 12, 6, 2 };
+        Integer[] sellins = { -1, 0, 1, 5, 6, 10, 11, 12, 6, 2 };
         Integer[] qualities = { 0, 1, 48, 49, 50 };
         CombinationApprovals.verifyAllCombinations(
                 this::runGildedRose,

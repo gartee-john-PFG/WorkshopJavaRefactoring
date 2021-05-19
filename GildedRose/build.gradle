@@ -13,7 +13,7 @@ plugins {
     id 'jacoco' // allow code coverage report
 }
 
-group 'beyond.gilded.rose' // added for pitest
+group 'GildedRose' // added for pitest
 
 jacoco{
     toolVersion = "0.8.6"
